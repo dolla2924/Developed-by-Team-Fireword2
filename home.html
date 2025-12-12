@@ -10,8 +10,10 @@
 </head>
 
 <body>
-    <!--header  -->
+    <!-- header -->
     <header>
+       
+    <section>
         <div class="header">
             <nav class="header_menu">
                 <div class="burger">
@@ -24,6 +26,10 @@
                 <div class="menu_icon">
                     <i class="fa-solid fa-bowl-food"></i>
                 </div>
+                <!-- Video icon: goes to the videos page -->
+                <a href="videos.html" class="video_icon" title="الفيديوهات" aria-label="الذهاب إلى صفحة الفيديوهات">
+                    <i class="fa-solid fa-video"></i>
+                </a>
                 <div class="cart_icon" id="cart-icon">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span>0</span>
@@ -31,18 +37,19 @@
             </nav>
         </div>
     </header>
-    <!--section home  -->
-    <section class="cover">
-        <div class="cover-overlay">
-            <h1>quick bite</h1>
-            <span class="slogan">where tasts takes the fast lane</span>
+       <section class="">
+         <div class="cover-overlay">
+                <video class="cover" playsinline autoplay muted loop>
+                        <source src="video/video1.mp4" type="video/mp4">
+                </video>
+                <div class="cover-content">   <!-- Optional overlay content (title / slogan) can go here and will appear above the video -->
+               </div>
         </div>
-    </section>
-
-    <!-- menus -->
-    <section id="main-menu-content">
+</section>
+    <!-- home page -->
+    <section>
+        <!-- food menu -->
         <h2 class="heading">food menu</h2>
-        <!-- food menu  -->
         <div class="menu_list">
             <div class="menu_items">
                 <img src="images/image 2.jpg" alt="Salad">
@@ -76,8 +83,13 @@
                 <img src="images/image 9.jpg" alt="Coffee">
                 <h5>caffee</h5>
             </div>
+            <div class="menu_items">
+                <img src="images/image 10.jpg" alt="rice">
+                <h5>rice</h5>
+            </div>
         </div>
-        <!-- menu item  -->
+
+        <!-- menu item -->
         <h2 class="heading">menu item</h2>
         <div class="list_card">
             <div class="card">
@@ -92,7 +104,8 @@
                 <img src="images/image 3.jpg" alt="Burger">
                 <h2 class="card-title">buger</h2>
                 <div class="card_price">
-                    <div class="price">35 LE</div> <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                    <div class="price">35 LE</div>
+                    <i class="fa-solid fa-cart-shopping add-to-cart"></i>
                 </div>
             </div>
             <div class="card">
@@ -143,11 +156,316 @@
                     <i class="fa-solid fa-cart-shopping add-to-cart"></i>
                 </div>
             </div>
+            <div class="card">
+                <img src="images/image 10.jpg" alt="Coffee">
+                <h2 class="card-title">rice</h2>
+                <div class="card_price">
+                    <div class="price">70 LE</div>
+                    <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/image 11.jpg" alt="Coffee">
+                <h2 class="card-title">fish</h2>
+                <div class="card_price">
+                    <div class="price">91 LE</div>
+                    <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/image12.jpg" alt="chicken breast">
+                <h2 class="card-title">chickin breast</h2>
+                <div class="card_price">
+                    <div class="price">70LE</div>
+                    <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/image 13.jpg" alt="Coffee">
+                <h2 class="card-title">bachamel pasta</h2>
+                <div class="card_price">
+                    <div class="price">20 LE</div>
+                    <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                </div>
+            </div>
         </div>
-        
     </section>
+    <!-- FAMILY  -->
+    <section id="family-meals">
+        <h2 class="heading"> FAMILY MEALS</h2>
+
+        <div class="list_card">
+
+            <div class="card">
+                <img src="images/family 4.jpeg" alt="Family Meal 4 Persons">
+                <h2 class="card-title">Family Feast (4 Persons)</h2>
+                <p>4 Main dishes, 4 drinks, 2 large fries and 1 large salad.</p>
+                <div class="card_price">
+                    <div class="price">280 LE</div>
+                    <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/family 6.jpeg" alt="Family Meal 6 Persons">
+                <h2 class="card-title">Mega Family Pack (6 Persons)</h2>
+                <p>6 Main dishes, 6 drinks, 3 large fries and 2 large salads.</p>
+                <div class="card_price">
+                    <div class="price">399 LE</div>
+                    <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/family 2.jpeg" alt="Family Meal 6 Persons">
+                <h2 class="card-title"> 
+                    the gathering Feast
+                </h2>
+                <p>6 Main dishes, 6 drinks, 3 large fries and 2 large salads.</p>
+                <div class="card_price">
+                    <div class="price">399 LE</div>
+                    <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/family 3.jpeg" alt="Family Meal 6 Persons">
+                <h2 class="card-title"> quick meal</h2>
+                <p>rice,chicken,saled.</p>
+                <div class="card_price">
+                    <div class="price">400 LE</div>
+                    <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/family 5.jpeg" alt="Family Meal 6 Persons">
+                <h2 class="card-title">Mega Family Pack (6 Persons)</h2>
+                <p>6 Main dishes, 6 drinks, 3 large fries and 2 large salads.</p>
+                <div class="card_price">
+                    <div class="price">399 LE</div>
+                    <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/family 7.jpeg" alt="Family Grill Pack">
+                <h2 class="card-title">Family Grill Pack</h2>
+                <p>Mixed grill platter (Kofta, Chicken, Kebab) with rice and appetizers.</p>
+                <div class="card_price">
+                    <div class="price">350 LE</div>
+                    <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/chicken.jpeg" alt="Family Pasta Dish">
+                <h2 class="card-title">Giant Pasta Dish</h2>
+                <p>Our famous pasta dish in a family size, serves 5 people.</p>
+                <div class="card_price">
+                    <div class="price">250 LE</div>
+                    <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--  deal -->
+    <section id="deals">
+        <h2 class="heading">DEALS & DISCOUNTS</h2>
+
+        <div class="list_card ">
+            <div class="card">
+                <img src="images/image 14.jpg" alt="Healthy Lunch Offer">
+                <div class="deal-info">
+                    <h3 class="card-title">Healthy Lunch Combo</h3>
+                    <p>Any Sandwich + 1 Soft Drink.</p>
+                    <div class="price">
+                        <span class="old-price">60 LE</span>
+                        <span class="new-price">45 LE</span>
+                    </div>
+                    <div class="card_price">
+                        <div class="price">45 LE</div>
+                        <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/image 17.jpeg" alt="Breakfast Offer">
+                <div class="deal-info">
+                    <h3 class="card-title">Morning Coffee Break</h3>
+                    <p>saled + fish.</p>
+                    <div class="price">
+                        <span class="old-price">50 LE</span>
+                        <span class="new-price">35 LE</span>
+                    </div>
+                    <div class="card_price">
+                        <div class="price">35 LE</div>
+                        <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/image 16.jpeg" alt="Pasta & Drink Deal">
+                <div class="deal-info">
+                    <h3 class="card-title">Pasta Lover Deal</h3>
+                    <p>Any Pasta Bachamel+ french frize</p>
+                    <div class="price">
+                        <span class="old-price">120 LE</span>
+                        <span class="new-price">95 LE</span>
+                    </div>
+                    <div class="card_price">
+                        <div class="price">95 LE</div>
+                        <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/image 7.jpg" alt="Dessert Buy 1 Get 1">
+                <div class="deal-info">
+                    <h3 class="card-title">Dessert For Two</h3>
+                    <p>Buy 2 pizza for the price of 1.5!</p>
+                    <div class="price-tag">
+                        <span class="old-price">140 LE</span>
+                        <span class="new-price">100 LE</span>
+                    </div>
+                    <div class="card_price">
+                        <div class="price">100 LE</div>
+                        <i class="fa-solid fa-cart-shopping add-to-cart"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--  customer favourite -->
+    <section id="highly rated" class="rated-section">
+        <h2 class="heading"> OUR CUSTOMER FAVORITES</h2>
+        <p class="section-description">
+            OUR TOP -Selling and most popular dishes,highly recommended by the chef!</p>
+
+        <div class="rated-dishes-grid">
+            <div class="card">
+                <img src="images/image 13.jpg" alt="Top Rated Burger">
+                <h3>Bachamel pasta</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span class="score"> (4.5)</span>
+                </div>
+                <p>arich layer of creamy bechamel over srasoned mwwt and pasta.
+                </p>
+                <span class="rated-price">65 LE</span>
+            </div>
+            <div class="card">
+                <img src="images/image 2.jpg" alt="Top Rated Burger">
+                <h3>fresh garden saled</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span class="score"> (4.5)</span>
+                </div>
+                <p>crisp lettuce,seasonal vegetables,and light dressing for heathy meal.</p>
+                <span class="rated-price">40 LE</span>
+            </div>
+            <div class="card">
+                <img src="images/image 4.jpg" alt="Top Rated Burger">
+                <h3>chocolate oreo milksheck</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span class="score"> (4.5)</span>
+                </div>
+                <p>The perfect blend of creamy texture and rice flavour,a customer favourite.</p>
+                <span class="rated-price">50 LE</span>
+            </div>
+            <div class="card">
+                <img src="images/image 6.jpg" alt="Top Rated Burger">
+                <h3>chicken nuggets</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span class="score"> (4.5)</span>
+                </div>
+                <p>crips golden chicken nuggets, a flavouverful and satiafuing side.</p>
+                <span class="rated-price">45 LE</span>
+            </div>
+            <div class="card">
+                <img src="images/image 5.jpg" alt="Top Rated Burger">
+                <h3>french fries</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span class="score"> (4.5)</span>
+                </div>
+                <p>cripsy,perfectly salted golden fries served with ketchup</p>
+                <span class="rated-price">35 LE</span>
+            </div>
+            <div class="card">
+                <img src="images/image 8.jpg" alt="Top Rated Burger">
+                <h3>soda/soft drink</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span class="score"> (4.5)</span>
+                </div>
+                <p>refresh chilled dark soda in tall glass with ice.</p>
+                <span class="rated-price">30 LE</span>
+            </div>
+            <div class="card">
+                <img src="images/image 9.jpg" alt="Top Rated Burger">
+                <h3>hot Coffee</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span class="score"> (4.5)</span>
+                </div>
+                <p>awarm cup of rich cofee ,per fect to enjoy</p>
+                <span class="rated-price">20 LE</span>
+            </div>
+            <div class="card">
+                <img src="images/image 7.jpg" alt="Top Rated Pizza">
+                <h3>Supreme Pizza</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="score"> (4.0)</span>
+                </div>
+                <p>Crispy crust and fresh toppings – a guaranteed delicious experience.</p>
+                <span class="rated-price">60 LE</span>
+            </div>
+
+        </div>
+    </section>
+    <!-- sidebar -->
     <section>
-        <!-- sidebar -->
         <div class="sidebar" id="sidebar">
             <div class="sidebar-close"> <i class="fa-solid fa-close"></i>
             </div>
@@ -164,6 +482,8 @@
                 <button class="checkout-btn">checkout</button>
             </div>
         </div>
+    </section>
+    </div>
     </section>
     <!-- checkout -->
     <section class="checkout-options-container" id="checkout-options-container" style="display: none;">
@@ -222,7 +542,7 @@
             </div>
             <div class="input-group">
                 <label>Full Address</label>
-                <textarea placeholder="*********" required></textarea>
+                <textarea required></textarea>
             </div>
             <button type="submit" class="send-btn">Confirm Delivery</button>
         </form>
@@ -278,6 +598,26 @@
             </ul>
         </div>
     </section>
+    <!--  nav menu -->
+    <section>
+        <div class="nav-menu" id="nav-menu">
+            <div class="menu-close">
+                <i class="fa fa-solid fa-xmark"></i>
+            </div>
+            <h3>main menu</h3>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a>
+                </li>
+
+                <li><a href="#deals">DEALS & DISCOUNTS</a>
+                </li>
+                <li><a href="#family-meals"> FAMILY MEALS</a></li>
+                <li><a href="#highly rated">OUR CUSTOMER FAVOURITES</a>
+                </li><li><a href="videos.html">Video</a>
+            </ul>
+        </div>
+    </section>
+
     <script src="main.js"></script>
 </body>
 
