@@ -4,20 +4,12 @@
 }
 
 body {
-  min-height: 100vh;
   margin: 0;
   padding: 40px;
-  /* background-color: #f0f4f8; */
-  background-image: url("22.png");
-  /* background-color: #99a98f; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
-
-  
-  min-height: 100vh;
-  
+  position: relative;  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +19,8 @@ body {
 
 
 .container {
-  width: 900px;
+  width: 70%;
+  margin: auto;
   height: 500px;
   background-color: white;
   display: flex;
@@ -212,6 +205,7 @@ form {
     flex-direction: column;
     width: 90%;
     height: auto;
+    
   }
   
   .left, .right {
@@ -225,3 +219,49 @@ form {
     font-size: 28px;
   }
 }
+.input-box {
+  position: relative;
+  margin: 20px 0;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px 10px;
+  font-size: 16px;
+  border: 2px solid #777;
+  border-radius: 6px;
+  outline: none;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 0 5px;
+  color: #777;
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+
+/* خاص بالحركةبتاعة الكلمة الداخلية */
+.input-box input:focus + label,
+.input-box input:not(:placeholder-shown) + label {
+  top: -10px;
+  font-size: 12px;
+  color: #3b5998;
+}
+.right{
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.container,html,body{
+height: 100vh;
+width: 90%;
+margin: auto;
+padding: 0;
+ }
