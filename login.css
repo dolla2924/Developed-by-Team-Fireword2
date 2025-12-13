@@ -265,3 +265,11 @@ width: 90%;
 margin: auto;
 padding: 0;
  }
+@media (max-width: 480px){
+  .container,html,body{
+height: 100vh;
+width: 100%;
+}
+}
+  
+
