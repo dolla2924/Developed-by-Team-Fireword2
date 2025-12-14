@@ -31,6 +31,11 @@ body{
     align-items: center;
     gap: 20px;
 }
+@media (max-width: 480px){
+    .header_menu{
+        gap: 5px;
+    }
+}
 .burger{
     padding: 10px;
     background-color: var(--primary-color);
@@ -1127,5 +1132,6 @@ footer .footer_main .tag .search_bar button:active{
 
 
  
+
 
 
