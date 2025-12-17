@@ -64,10 +64,17 @@ body{
     gap: 10px;
 }
 .menu_icon i{
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
+    color: #088178;
+}
+#back-icon  i{
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
     color: #088178;
 }
 .video_icon{
