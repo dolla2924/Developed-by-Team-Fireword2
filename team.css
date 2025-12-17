@@ -162,7 +162,7 @@ transform: scale(1.1);
 
     /* team cards */
     .team .name {
-        width:190px;
+        width:180px;
         height: 300px;
         margin: 12px 0px;
         padding: 5px;
@@ -191,5 +191,6 @@ transform: scale(1.1);
         line-height: 1.5;
     }
 }
+
 
 
