@@ -67,8 +67,8 @@ body{
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    background-color: var(--decent-color);
-
+    font-size: 20px;
+    color: #088178;
 }
 .video_icon{
     display: flex;
@@ -85,7 +85,7 @@ body{
     transition: 0.3s ease;
 }
 .video_icon i:hover{
-    background-color: var(--primary-color);
+    background-color: var(--primary-color);  
     color: var(--accent-color);
 }
 .fa-cart-shopping{
@@ -887,7 +887,7 @@ align-items: stretch;
     background-color: #088178;
     color: white;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 10px;
     cursor: pointer;
     padding: 10px;
 }
@@ -1129,9 +1129,3 @@ footer .footer_main .tag .search_bar button:active{
         font-size: 11px;
     }
 }
-
-
- 
-
-
-
